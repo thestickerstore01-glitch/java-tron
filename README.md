@@ -124,7 +124,13 @@ Fill in the private key of a super representative address into the `localwitness
 
 ```
  localwitness = [
+    < localwitness = [
     <your_private_key>
+ ]wallet> GenerateAddress
+{
+    "address": "TU6JdEDQ...4FQrXPCa", // TRON Address, Base58Check, 34 total chars
+    "privateKey": "b1ba1db5...74376176" // Private Key, Hex, 64 total chars
+}>
  ]
 ```
 
@@ -202,3 +208,4 @@ Thank you for considering to help out with the source code! If you'd like to con
 # License
 
 java-tron is released under the [LGPLv3 license](https://github.com/tronprotocol/java-tron/blob/master/LICENSE).
+
